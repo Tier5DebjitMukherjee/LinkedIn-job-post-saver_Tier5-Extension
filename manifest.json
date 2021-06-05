@@ -1,0 +1,32 @@
+{
+    "manifest_version":2,
+    "name": "LindekIn Job Post Saver",
+    "version": "1.0",
+    "description":"It saves hr post, job post and vacancy related post in LinkedIn",
+    "icons":{
+        "128":"linkedIn logo2 - Copy 128.png",
+        "48":"linkedIn logo2 - Copy 48.png",
+        "16":"linkedIn logo2 - Copy 16.png"
+    },
+    "browser_action": {
+        "default_icon":"linkedIn logo2 - Copy 16.png",
+        "default_popup":"login.html"
+    },
+    "permissions":[ "tabs",
+        "storage",
+        "notifications",
+        "https://www.linkedin.com/feed/"
+    ],
+    "background": {
+        "scripts":["background.js"],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.linkedin.com/*"
+         ],
+            "js": ["content.js"]
+    
+        }
+    ]
+}
