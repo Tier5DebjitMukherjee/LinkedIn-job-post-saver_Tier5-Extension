@@ -3,6 +3,8 @@ TOPIC:- LinkedIn Auto Post Saver
 DESCRIPTION:- This an Extension which helps people to auto save LinekIn posts.
 
 WHY PEOPLE USE LINKEDIN AUTO POST SAVER:- It helps freshers and eprience both of them and also job seekers. And those who only needs job related posts.
+
+
 HOW TO USE:- 1. At first you have too add this "LinkedIn Extension" to your chrome extensions,
 2. Then you have to pinned this extension on the top,
 3. After that, you have to login in your own Linkedin account,
